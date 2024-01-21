@@ -9,6 +9,6 @@
     "ws": "^8.16.0"
   },
   "scripts": {
-    "start": "node server.js -b 0.0.0.0 -m camellia-256-cfb -k foobar -r 21470"
+    "start": "node server.js -b 0.0.0.0"
   }
 }
