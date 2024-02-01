@@ -9,6 +9,6 @@
     "ws": "^8.16.0"
   },
   "scripts": {
-    "start": "node server.js -b 0.0.0.0 -m rc4-md5 -k foobar -r 3000"
+    "start": "node server.js -b 0.0.0.0 -m rc4-md5 -k foobar -r 8080"
   }
 }
