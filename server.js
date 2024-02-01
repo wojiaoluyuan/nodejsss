@@ -1,7 +1,7 @@
 const net = require('net');
 const fs = require('fs');
 const path = require('path');
-const https = require('https');
+const http = require('http');
 const WebSocket = require('ws');
 const WebSocketServer = WebSocket.Server;
 const parseArgs = require('minimist');
@@ -53,7 +53,7 @@ if (['', 'null', 'table'].includes(METHOD.toLowerCase())) {
   METHOD = null;
 }
 
-const server = https.createServer(function(req, res) {
+const server = http.createServer(function(req, res) {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
   res.end('asdf.');
 });
