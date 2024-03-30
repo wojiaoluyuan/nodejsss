@@ -14,12 +14,6 @@
   "resolved" "https://registry.npmjs.org/async-limiter/-/async-limiter-1.0.0.tgz"
   "version" "1.0.0"
 
-"bufferutil@^4.0.1":
-  "integrity" "sha512-xowrxvpxojqkagPcWRQVXZl0YXhRhAtBEIq3VoER1NH5Mw1n1o0ojdspp+GS2J//2gCVyrzQDApQ4unGF+QOoA=="
-  "resolved" "https://registry.npmjs.org/bufferutil/-/bufferutil-4.0.1.tgz"
-  "version" "4.0.1"
-  dependencies:
-    "node-gyp-build" "~3.7.0"
 
 "debug@^3.1.0":
   "integrity" "sha512-mel+jf7nrtEl5Pn1Qx46zARXKDpBbvzezse7p7LqINmdoIk8PYP5SySaxEmYv6TZ0JyEKA1hsCId6DIhgITtWQ=="
