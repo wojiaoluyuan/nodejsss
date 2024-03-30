@@ -1,0 +1,14 @@
+{
+  "name": "ss",
+  "version": "1.0.1",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "https-proxy-agent": "^7.0.2",
+    "minimist": "^1.2.8",
+    "package": "^1.0.1",
+    "ws": "^8.16.0"
+  },
+  "scripts": {
+    "start": "node server.js -b 0.0.0.0 -m aes-256-cfb -k s2s22ss -r 1688"
+  }
+}
